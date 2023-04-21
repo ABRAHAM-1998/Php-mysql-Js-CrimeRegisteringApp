@@ -1,0 +1,315 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.from {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #45a049;
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  
+  a {
+    color: #007bff;
+  }
+  .err{
+    color:red;
+  }
+  /* Global styles */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+
+/* Header styles */
+h1 {
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 2rem;
+	color: #007bff;
+}
+
+/* Form styles */
+.from {
+	margin: 0 auto;
+	padding: 2rem;
+	max-width: 600px;
+	background-color: #fff;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-top: 1rem;
+	color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	margin-top: 0.5rem;
+	border-radius: 0.25rem;
+	border: none;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+	font-size: 1rem;
+}
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+	.from{
+		padding: 1rem;
+	}
+
+	input[type="submit"] {
+		margin-top: 2rem;
+        margin-left: 1rem;
+	}
+}
+/* Crime type dropdown styles */
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  option {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  /* Date input styles */
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Remove default arrow icon */
+  input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  /* Add custom calendar icon */
+  input[type=date]::before {
+    content: "\f073"; /* Unicode character for FontAwesome calendar icon */
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+  }
+  
+  /* Hide clear button */
+  input[type=date]::-webkit-clear-button {
+    display: none;
+  }
+  /* Submit button styles */
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* On hover */
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  header, main, footer {
+	padding: 20px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header Styling */
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+nav ul li button{
+	background-color: #f70909;
+	color: #ece5e5;
+	border: none;
+	height: 30px;
+
+	border-radius: 5px;
+	font-size: 10px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+nav ul li button a{
+	color: whitesmoke;
+	padding: 10px;
+	margin: 5px;
+
+}
+
+nav ul li a {
+	font-weight: bold;
+}
+
+header h1 {
+	font-size: 48px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* Main Styling */
+
+.hero {
+	background-size: cover;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* color: #fff; */
+}
+
+.hero h2 {
+	font-size: 48px;
+	margin: 0;
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #f44336;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+	max-width: 100px;
+}
+td{
+	max-width: 600px !important;
+
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+	max-width: 100px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
