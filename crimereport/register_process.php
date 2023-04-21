@@ -1,7 +1,6 @@
 // register_process.php
 
 <?php
-// Database credentials
 $servername = "localhost";
 $username = "root";
 $password = "password";
