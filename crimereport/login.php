@@ -108,6 +108,7 @@ h1{
 				<input type="password" name="password" required>
 				<label>Password</label>
 			</div>
+
 			<button type="submit" name="login">Login</button>
 		</form>
 		<p>Don't have account?<a style="color:blue" href="register.php">Register Now</a></p>
